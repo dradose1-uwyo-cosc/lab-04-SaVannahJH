@@ -1,0 +1,17 @@
+Walmart =["Turkey Slices", "Eggs", "Bread", "Soda", "Califlower"]
+Prices =[5.77,5.00,20.00,6.00, 0.50]
+for index in range(len(Walmart)):
+    print (f"I bought{Walmart[index]} for $ [{Prices[index]}]")
+
+# print the total of the items
+total= 0
+for t in Prices:
+    total=total + t
+    print (f" I spent $ {total} at Walmart")
+
+    #print the cheapest and most expensive 
+    print(min(Prices))
+    print(max(Prices))
+    print (f"The cheaptest items was {Walmart[4]} ${Prices[4]} and the most expensive was {Walmart[2]} ${Prices[2]}")
+
+    
